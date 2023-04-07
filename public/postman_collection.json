@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "985b3f57-f27c-4c45-882c-c533c139f4ea",
+		"name": "Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "20595515"
+	},
+	"item": [
+		{
+			"name": "Folder",
+			"item": [
+				{
+					"name": "url 예시",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "code",
+									"value": "12312312",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "123123",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "12312312",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "1231232",
+									"type": "text"
+								}
+							]
+						},
+						"url": "www.urlEx.com/url_1"
+					},
+					"response": []
+				},
+				{
+					"name": "url 예시2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "refresh_token",
+									"value": "asdkjllkfjm,nm,n",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "refresh_token",
+									"type": "text"
+								},
+								{
+									"key": "client_id",
+									"value": "jaslkjfklsddsfsdfsd",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "zxvcnasdasdas",
+									"type": "text"
+								}
+							]
+						},
+						"url": "www.urlEx.com/url_2"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
